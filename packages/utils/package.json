@@ -1,0 +1,30 @@
+{
+    "name": "@boom/utils",
+    "version": "1.1.2",
+    "description": "> TODO: description",
+    "author": "chalee <695469701@qq.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "lib/index.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "http://nexus.s.boomsj.com/repository/npm-bm/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@codeup.aliyun.com:610753df22d5077081df57ee/temp/lerna-repo.git"
+    },
+    "scripts": {
+        "build": "microbundle"
+    },
+    "dependencies": {
+        "@boom/core": "^1.1.2"
+    },
+    "gitHead": "e4ace9be8634d03e6f87170c52ce69c84b3dba56"
+}

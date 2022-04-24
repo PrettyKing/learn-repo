@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/chalee/.nvm/versions/node/v16.12.0/bin/node /Users/chalee/.nvm/versions/node/v16.12.0/bin/yarn add typescript
+
+PATH: 
+  /Users/chalee/.nvm/versions/node/v16.12.0/bin:/Library/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/flutter/bin:/Library/apache-maven-3.8.4/bin:/Library/apache-maven-3.8.4/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://nexus.s.boomsj.com/repository/npm-bm/lerna: Package 'lerna' not found
+      at Request.params.callback [as _callback] (/Users/chalee/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/chalee/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/chalee/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/chalee/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+      "name": "lerna-repo",
+      "version": "1.1.1",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git@codeup.aliyun.com:610753df22d5077081df57ee/temp/lerna-repo.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+          "lerna": "^4.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
